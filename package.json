@@ -13,7 +13,7 @@
     "redux": "^4.0.5"
   },
   "scripts": {
-    "lint": "yarn run lint & yarn run start"
+    "lint": "yarn run lint & yarn run start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
