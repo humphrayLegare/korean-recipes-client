@@ -1,5 +1,5 @@
 Arguments: 
-  /home/hlegare/.nvm/versions/node/v8.17.0/bin/node /usr/bin/yarn run lint
+  /home/hlegare/.nvm/versions/node/v8.17.0/bin/node /usr/bin/yarn install @material-ui/core
 
 PATH: 
   /home/hlegare/.nvm/versions/node/v8.17.0/bin:/home/hlegare/bin:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/hlegare/.local/bin
@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  SyntaxError: /home/hlegare/Dev/korean-recipes/package.json: Unexpected string in JSON at position 423
+  SyntaxError: /home/hlegare/Dev/korean-recipes/client/package.json: Unexpected string in JSON at position 423
       at JSON.parse (<anonymous>)
       at /usr/lib/node_modules/yarn/lib/cli.js:1625:59
       at Generator.next (<anonymous>)
